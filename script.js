@@ -10,6 +10,12 @@ console.log(Nome);
 console.log(Cognome);
 console.log(Colore);
 
+//genera il risultato
+
+const Password = `${Nome}${Cognome}${Colore}${22}` ;
+console.log (Password);
+
 //stampa il risultato
 
-const Password = Nome + Cognome + Colore + 22 ;
+document.getElementById('Password').innerHTML = Password;
+
